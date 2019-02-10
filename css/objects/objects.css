@@ -23,3 +23,12 @@
 	position: relative;
 	flex-wrap: wrap;
 }
+
+.curso-creditos {
+	display: inline-block;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 10px;
+	text-align: center;
+}
