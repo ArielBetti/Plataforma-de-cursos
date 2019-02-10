@@ -1,0 +1,26 @@
+.navigationitens {
+	display: flex;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.25em;
+	position: relative;
+	margin: 10px;
+}
+
+.navigationitens::after {
+	content: '';
+	background: #fff;
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	transform: scaleX(0);
+	transform-origin: left center;
+	transition: 200ms transform linear;
+}
+
+.navigationitens:hover::after {
+	transform: scale(1);
+}

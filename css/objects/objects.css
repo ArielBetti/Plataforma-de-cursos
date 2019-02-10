@@ -1,0 +1,25 @@
+.curso-apresentation {
+	background-image: url('https://images.wallpaperscraft.com/image/architecture_city_view_from_above_buildings_river_118446_1920x1200.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.curso-filter {
+	margin:	0;
+	background-color: rgba(15, 113, 175,0.9);
+  	height: 100%;
+  	width: 100%;
+}
+
+.curso-navigation {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 20px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+}
