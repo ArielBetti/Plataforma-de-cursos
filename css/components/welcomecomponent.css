@@ -36,6 +36,8 @@
 	margin-top: 40px;
 	font-weight: bold;
 	transition: 300ms all linear;
+	font-size: 1em;
+	cursor: pointer;
 }
 
 .welcomecurso > .cursobtn:hover {

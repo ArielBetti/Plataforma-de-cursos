@@ -14,6 +14,16 @@
   	width: 100%;
 }
 
+.subs-filter {
+	background-color: rgba(255, 255, 255,0.8);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .curso-navigation {
 	display: flex;
 	flex-direction: row;
@@ -31,4 +41,28 @@
 	bottom: 0;
 	padding-bottom: 10px;
 	text-align: center;
+}
+
+.subs-curso {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	position: absolute;
+	left: -5000%;
+	transform: translate(-50%,-50%);
+	background-image: url('../../img/wallpaper/cadastro.jpeg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	min-width: 95%;
+	min-height: 95%;
+	transition: 200ms transform linear;
+}
+
+.-action {
+	left: 50%;
+	transition: 200ms;
 }

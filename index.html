@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/components/gradecomponents.css">
 	<link rel="stylesheet" type="text/css" href="css/components/creditoscomponents.css">
 	<link rel="stylesheet" type="text/css" href="css/objects/objects.css">
+	<link rel="stylesheet" type="text/css" href="css/components/subscursocomponents.css">
+	
 	<!-- meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,12 +28,12 @@
 				<hr class="separador">
 			<h1 class="cursotitle">Você quer ser um Desenvolvedor Web ? </h1>
 			<p class="cursotext">Venha aprender com a gente !</p>
-			<a class="cursobtn" href="#">Inscreva-se agora</a>
+			<button id="chamacadastro" class="cursobtn">Inscreva-se agora</button>
 			<hr class="separador">
-			<nav class="curso-navigation">
+			<nav class="curso-navigat3gregion">
 				<a class="navigationitens" href="#">Grade</a>
 				<a class="navigationitens" href="#">Sobre</a>
-				<a class="navigationitens"href="#">Contato</a>
+				<a class="navigationitens" href="#">Contato</a>
 			</nav>
 			<section class="curso-creditos">
 				<div class="cursocreditos">
@@ -40,14 +42,25 @@
 				</div>
 			</section>
 		</div>
-		</section>
+		</section>	
 	</header>
 	<main>
+		<section id="cadastro" class="subs-curso">
+			<div class="subs-filter">
+				<button id="fecharcadastro" class="subscursoexit">Fechar</button>
+				<form class="subsform">
+						<input class="subsformitem" type="text" name="nome" placeholder="NOME" required="">
+						<input class="subsformitem" type="e-mail" name="nome" placeholder="E-MAIL" required="">
+						<input class="subsformitem" type="password" name="nome" placeholder="SENHA" required="">
+						<button class="subsformbtn" type="submit">Enviar</button>
+				</form>
+			</div>
+		</section>
 	</main>
 
 	<footer>
 		
 	</footer>
-
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
